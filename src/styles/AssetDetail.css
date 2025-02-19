@@ -1,0 +1,132 @@
+.asset-info {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.time-range-buttons {
+  margin-bottom: 15px;
+}
+
+.time-range-buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #f0f0f0;
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.time-range-buttons button.active {
+  background: #4caf50;
+  color: #fff;
+}
+
+.chart-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.recharts-surface {
+  width: 107% !important;
+}
+
+.asset-detail-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.asset-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.asset-info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.asset-info h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.asset-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.wallet-section {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wallet-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.wallet-section p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wallet-section input {
+  width: 90%;
+  max-width: 250px;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.wallet-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.wallet-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.wallet-button.add {
+  background-color: #4caf50;
+  color: white;
+}
+
+.wallet-button.add:hover {
+  background-color: #45a049;
+}
+
+.wallet-button.remove {
+  background: #ff3b30;
+  color: white;
+}
+
+.wallet-button.remove:hover {
+  background-color: #c9302c;
+}

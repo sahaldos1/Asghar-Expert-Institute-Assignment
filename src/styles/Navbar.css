@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  text-decoration: none;
+  color: #3a7d44;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-wallet-button {
+  text-decoration: none;
+  background-color: white;
+  color: #3a7d44;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 1px solid #3a7d44;
+  transition: 0.3s ease;
+}
+
+.nav-wallet-button:hover {
+  background-color: #3a7d44;
+  color: white;
+}
